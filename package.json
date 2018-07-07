@@ -1,0 +1,35 @@
+{
+  "name": "ridwanexp",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-preset-react-native-stage-0": "^1.0.1",
+<<<<<<< HEAD
+    "jest": "^23.1.0",
+=======
+    "jest": "^23.3.0",
+>>>>>>> first commit
+    "jest-react-native": "^18.0.0",
+    "react-test-renderer": "16.3.1"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  },
+  "dependencies": {
+    "react": "16.3.1",
+<<<<<<< HEAD
+    "react-native": "~0.55.2"
+=======
+    "react-native": "^0.56.0",
+    "react-native-fbsdk": "^0.7.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0"
+>>>>>>> first commit
+  }
+}
