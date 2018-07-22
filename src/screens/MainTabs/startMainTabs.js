@@ -13,7 +13,7 @@ const startTabs = () => {
                 {
                     screen: "awesome-places.FindPlaceScreen",
                     label: "Find Place",
-                    title: "Find Place",
+                    title: "Temukan Tempat",
                     icon: sources[0],
                     navigatorButtons: {
                         leftButtons: [
@@ -28,7 +28,7 @@ const startTabs = () => {
                 {
                     screen: "awesome-places.SharePlaceScreen",
                     label: "Share Place",
-                    title: "Share Place",
+                    title: "Bagikan Tempat",
                     icon: sources[1],
                     navigatorButtons: {
                         leftButtons: [
@@ -41,11 +41,17 @@ const startTabs = () => {
                     }
                 }
             ],
+            tabsStyle: {
+                tabBarSelectedButtonColor: "orange"
+            },
             drawer: {
                 left: {
                     screen: "awesome-places.SideDrawer"
                 }
-            }
+            },
+            appStyle: {
+                tabBarSelectedButtonColor: "orange"
+            },
         });
     });
 };
