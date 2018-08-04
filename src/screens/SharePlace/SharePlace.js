@@ -37,9 +37,9 @@ class SharePlaceScreen extends Component {
         value: null,
         valid: false
       },
-      image : {
-        valid: false,
-        value: null
+      image: {
+        value: null,
+        valid: false
       }
     }
   };
@@ -99,8 +99,8 @@ class SharePlaceScreen extends Component {
             valid: true
           }
         }
-      }
-    })
+      };
+    });
   }
 
   placeAddedHandler = () => {
@@ -116,7 +116,7 @@ class SharePlaceScreen extends Component {
       <ScrollView>
         <View style={styles.container}>
           <MainText>
-            <HeadingText></HeadingText>
+            <HeadingText>Bagikan Tempatmu!</HeadingText>
           </MainText>
           <PickImage onImagePicked={this.imagePickedHandler} />
           <PickLocation onLocationPick={this.locationPickedHandler} />

@@ -5,7 +5,7 @@ import DefaultInput from "../UI/DefaultInput/DefaultInput";
 
 const placeInput = props => (
   <DefaultInput
-    placeholder="Tempat"
+    placeholder="Nama Tempat"
     value={props.placeData.value}
     valid={props.placeData.valid}
     touched={props.placeData.touched}

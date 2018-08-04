@@ -4,7 +4,6 @@ package com.ridwanexp;
 
 
 import com.airbnb.android.react.maps.MapsPackage;
-import com.arttitude360.reactnative.rngoogleplaces.RNGooglePlacesPackage;
 
 import com.facebook.react.ReactPackage;
 
@@ -32,7 +31,6 @@ public class MainApplication extends NavigationApplication {
           // eg. new VectorIconsPackage()
           new VectorIconsPackage(),
           new MapsPackage(),
-          new RNGooglePlacesPackage(),
           new ImagePickerPackage()
       );
   }
