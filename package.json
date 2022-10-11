@@ -19,8 +19,8 @@
   },
   "dependencies": {
     "react": "16.3.1",
-    "react-native": "^0.56.0",
-    "react-native-fbsdk": "^0.7.0",
+    "react-native": "^0.70.2",
+    "react-native-fbsdk": "^3.0.0",
     "react-native-google-places": "^2.5.2",
     "react-native-image-picker": "^0.26.10",
     "react-native-maps": "^0.21.0",
